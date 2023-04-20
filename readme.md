@@ -33,17 +33,19 @@ I decided to build a marketing website for a company called Flash card pro, whic
 
 ### NAVIGATION
 
-![Nav desktop](./rmimgs/nav2-desk.png)
+![Nav desktop](./assets/imgs/nav.png)
 
 ### FOOTER
 
 ### HOME PAGE
 
-![Proposed Home page](./rmimgs/homepage2.png)
-
 #### HERO
 
+![Home hero](./assets/imgs/home-hero.png)
+
 #### TESTIMONIALS
+
+![Testimonials](./assets/imgs/testimonials.png)
 
 #### FEATURES
 
@@ -51,15 +53,21 @@ I decided to build a marketing website for a company called Flash card pro, whic
 
 #### HERO
 
+![About hero](./assets/imgs/abouthero.png)
+
 #### MEET THE TEAM
+
+![Meet the team](./assets/imgs/meetteam.png)
 
 #### GALLERY
 
-![Original Gallery page](./rmimgs/orignal-gallery.png)
+![Original Gallery page](./assets/imgs/gallery.png)
 
 ### CONTACT PAGE
 
 #### CONTACT FORM
+
+![Contact form](./assets/imgs/contact.png)
 
 ## 4. SUMMARY / REFERENCES
 
