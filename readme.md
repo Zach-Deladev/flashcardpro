@@ -1,4 +1,4 @@
-# Website improvments - By Zach delapenha
+# Flashcards pro- By Zach delapenha
 
 ## CONTENTS
 
@@ -96,4 +96,3 @@ MDN Web Docs (2023) <a>: The Anchor element. Available at: https://developer.moz
 Cloudflare (n.d.) CDN Performance. Available at: https://www.cloudflare.com/learning/cdn/performance/ (Accessed at: 19th April 2023).
 
 FlowMapp (n.d.) 60-30-10 Rule. Available at: https://www.flowmapp.com/blog/glossary-term/60-30-10-rule (Accessed at: 19th April 2023).
-# flashcardpro
