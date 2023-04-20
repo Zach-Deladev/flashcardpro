@@ -89,8 +89,6 @@ HubSpot (2022) 9 Guidelines & Best Practices for Exceptional Web Design and Usab
 
 Harvard University (n.d.) Use images and media to enhance understanding. Available at: https://accessibility.huit.harvard.edu/use-images-and-media-enhance-understanding (Accessed at: 15th April 2023).
 
-OpenAI (2023) GPT-4 is OpenAI’s most advanced system, producing safer and more useful responses. Available at: https://openai.com/product/gpt-4 (Accessed at: 15th April 2023).
-
 CampaignMonitor (2019) Interactive Elements That Can Increase User Engagement. Available at: https://www.campaignmonitor.com/blog/ecommerce/interactive-elements-that-can-increase-user-engagement/ (Accessed at: 16th April 2023).
 
 Bootstrap (2023) Grid System. Available at: https://getbootstrap.com/docs/5.0/layout/grid/ (Accessed at: 16th April 2023).
