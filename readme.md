@@ -35,7 +35,13 @@ I decided to build a marketing website for a company called Flash card pro, whic
 
 ![Nav desktop](./assets/imgs/nav.png)
 
+For the navigation bar I kept it simple, I used the bootstrap navbar component and added a logo and a hamburger menu for mobile devices.
+
 ### FOOTER
+
+For the footer i designed a layout using bootstrap grid system, I used the 60-30-10 rule to create a balanced layout.
+
+The footer contains links to download the app and contact information.
 
 ### HOME PAGE
 
@@ -43,11 +49,36 @@ I decided to build a marketing website for a company called Flash card pro, whic
 
 ![Home hero](./assets/imgs/home-hero.png)
 
+The Hero section of the home page contains a hero image and a call to action button followed by an animation of a flash card which spins to show the answer to the question when hovered over.
+
+I achieved this by using the bootstrap grid system and adding a class of `flip-card` to the div containing the flash card. I then used css to add the animation.
+
 #### TESTIMONIALS
 
 ![Testimonials](./assets/imgs/testimonials.png)
 
+The testimonials section containts a 3x1 grid of testimonials, I used the bootstrap grid system to achieve this and then added read more functionality to each testimonial using javascript.
+
+The javascript code is as follows:
+
+    const readMoreButtons = document.querySelectorAll('.read-more');
+
+    readMoreButtons.forEach((button) => {
+    button.addEventListener('click', () => {
+    event.preventDefault();
+    const hiddenText = button.previousElementSibling;
+    hiddenText.classList.toggle('hidden-text');
+    button.textContent = hiddenText.classList.contains('hidden-text') ? 'Read More' : 'Read Less';
+    });
+    });
+
 #### FEATURES
+
+The features section contains a 3x1 grid of features, I used the bootstrap grid system to achieve this. It also shows an image of the app so the user can see what it looks like.
+
+#### PRICING
+
+This section contains a pricing table which shows the different pricing options for the app. It also has links to download the app.
 
 ### ABOUT PAGE
 
@@ -55,23 +86,50 @@ I decided to build a marketing website for a company called Flash card pro, whic
 
 ![About hero](./assets/imgs/abouthero.png)
 
+Similar to the home page hero, the about page hero contains a hero image and a short description of the company from the CEO.
+
 #### MEET THE TEAM
 
 ![Meet the team](./assets/imgs/meetteam.png)
+
+The meet the team section contains a 3x1 grid of team members, I used the bootstrap grid system to achieve this.
 
 #### GALLERY
 
 ![Original Gallery page](./assets/imgs/gallery.png)
 
+The gallery page contains a 3x3 grid of images, I used the bootstrap grid system to achieve this. I also added a lightbox to the images so that when the user clicks on an image it opens in a lightbox. I achieved this with vanilla javascript.
+
+The gallery.js file does the following:
+
+first grabs all the relevant elements from the DOM and stores them in variables.
+Then creates an array of image indexes.
+Then declares a variable that will be used to store the current image index.
+Creates two functions to handle the opening and closing of the lightbox. openPopup() and closePopup().
+Creates a function that iterates through the image indexes and dynamically renders the images to the gallery page.
+Creates a event listener that listens for a click event on the gallery images and when the image is clicked it opens the lightbox and displays the image in a larger size.
+Creates two functions that handle the next and previous image buttons in the lightbox. showNextImage() and showPrevImage().
+Creates a event listener that listens for a click event in the lightbox and when its triggered it closes the light box.
+
 ### CONTACT PAGE
 
 #### CONTACT FORM
+
+The contact page contains a contact form which allows the user to send a message to the company.
+
+For the validation of the form i created my own custom validation using javascript. This validation uses regular expressions to check if the user has entered a valid email address and if the user has entered a message. The border surrounding the input fields turn red or green depending on if the users input matches the regular expression.
+
+The form does not submit because its has been created to link to a backend system and this project is solely frontend. However, if the form was to submit it would send the data to the backend system and the backend system would then send an email to the company with the users message.
 
 ![Contact form](./assets/imgs/contact.png)
 
 ## 4. SUMMARY / REFERENCES
 
 ### SUMMARY
+
+Overall this project was a great learning experience for me, I learnt a lot about html, css and javascript. I also learnt how to use bootstrap to quickly make responsive websites as i was time constrained.
+
+If i had more time i would have liked to add more features to the website such as a click through user journey.
 
 ### REFERENCES
 
@@ -102,3 +160,7 @@ MDN Web Docs (2023) <a>: The Anchor element. Available at: https://developer.moz
 Cloudflare (n.d.) CDN Performance. Available at: https://www.cloudflare.com/learning/cdn/performance/ (Accessed at: 19th April 2023).
 
 FlowMapp (n.d.) 60-30-10 Rule. Available at: https://www.flowmapp.com/blog/glossary-term/60-30-10-rule (Accessed at: 19th April 2023).
+
+```
+
+```
