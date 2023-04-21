@@ -39,6 +39,8 @@ For the navigation bar I kept it simple, I used the bootstrap navbar component a
 
 ### FOOTER
 
+![Footer](./assets/imgs/footer.png)
+
 For the footer i designed a layout using bootstrap grid system, I used the 60-30-10 rule to create a balanced layout.
 
 The footer contains links to download the app and contact information.
