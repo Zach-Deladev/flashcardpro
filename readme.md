@@ -163,6 +163,4 @@ Cloudflare (n.d.) CDN Performance. Available at: https://www.cloudflare.com/lear
 
 FlowMapp (n.d.) 60-30-10 Rule. Available at: https://www.flowmapp.com/blog/glossary-term/60-30-10-rule (Accessed at: 19th April 2023).
 
-```
-
-```
+FlashPal (2023) FlashPal AI. Available at: https://flashpal.ai (Accessed at: 19th April 2023). 
